@@ -1,8 +1,8 @@
-import Vue, { PluginObject, VueConstructor } from "vue"
+import Vue, { Plugin_2, VueConstructor } from "vue"
 
 declare const VueGtm: VueGtmPlugin
 export default VueGtm
-export interface VueGtmPlugin extends PluginObject<VueGtmUseOptions> {}
+export interface VueGtmPlugin extends Plugin_2<VueGtmUseOptions> {}
 
 export interface VueGtmTrackEventParams {
   [key: string]: any
